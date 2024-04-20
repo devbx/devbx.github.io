@@ -14,7 +14,7 @@ on:
         type: string
 
       pnpm-version:
-        default: latest
+        default: "v8.14.1"
         required: false
         type: string
 
