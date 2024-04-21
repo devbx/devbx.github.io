@@ -19,6 +19,7 @@ on:
         type: string
 
       cname:
+        default: "devbx.is-a.dev"
         required: false
         type: string
 
