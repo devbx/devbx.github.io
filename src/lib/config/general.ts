@@ -57,7 +57,7 @@ export const header: HeaderConfig = {
   nav: [
     {
       text: 'ReVanced guide',
-      link: '/revanced'
+      link: '/revanced/cli'
     }
   ]
 }
