@@ -5,17 +5,19 @@ tags: ['ReVanced']
 ---
 
 ## Initialize the environment
-## For Linux users:
 ### 1. Install OpenJDK 17
-```bash Arch Linux-based distro
+### For Arch Linux-based distro:
+```bash
 sudo pacman -S jdk17-openjdk
 ```
-
-```bash Debian-based distro
+### For Debian-based distro:
+```bash
 sudo apt install openjdk-17-jdk
 ```
-
-```bash Fedora-based distro
+### For Fedora-based distro:
+```bash
 sudo dnf install java-17-openjdk.x86_64
 ```
+### For Windows:
 
+Download Java SE 17 from [here](https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.exe)
