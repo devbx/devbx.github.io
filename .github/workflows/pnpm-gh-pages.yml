@@ -14,7 +14,7 @@ on:
         type: string
 
       pnpm-version:
-        default: "v8.14.1"
+        default: latest
         required: false
         type: string
 
@@ -70,7 +70,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build
         run: ${{ inputs.build_command }}
