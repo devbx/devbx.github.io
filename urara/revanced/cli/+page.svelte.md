@@ -6,15 +6,15 @@ tags: ['ReVanced']
 
 ## Initialize the environment
 ### 1. Install OpenJDK 17
-### For Arch Linux-based distro:
+### For Arch Linux based distro:
 ```bash
 sudo pacman -S jdk17-openjdk
 ```
-### For Debian-based distro:
+### For Debian based distro:
 ```bash
 sudo apt install openjdk-17-jdk
 ```
-### For Fedora-based distro:
+### For Fedora based distro:
 ```bash
 sudo dnf install java-17-openjdk.x86_64
 ```
