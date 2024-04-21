@@ -8,7 +8,7 @@ export const site: SiteConfig = {
   lang: 'en-US',
   description: 'Powered by SvelteKit/Urara',
   author: {
-    avatar: '/assets/maskable@512.png',
+    avatar: 'https://avatars.githubusercontent.com/u/161192932?v=4',
     name: 'DevBX',
     status: '😴',
     bio: 'Hello world!'
