@@ -59,6 +59,7 @@ jobs:
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
+          export COREPACK_ENABLE_STRICT=0
           echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
 
       - uses: actions/cache@v3
