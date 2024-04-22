@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://devbx.github.io/</id>
+  <id>https://devbx.is-a.dev/</id>
   <title><![CDATA[DevBX]]></title>
   <subtitle><![CDATA[My Blog]]></subtitle>
-  <icon>https://devbx.github.io/favicon.png</icon>
-  <link href="https://devbx.github.io" />
-  <link href="https://devbx.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2024-04-22T10:49:52.432Z</updated>
+  <icon>https://devbx.is-a.dev/favicon.png</icon>
+  <link href="https://devbx.is-a.dev" />
+  <link href="https://devbx.is-a.dev/atom.xml" rel="self" type="application/atom+xml" />
+  <updated>2024-04-22T10:51:10.832Z</updated>
   <author>
     <name><![CDATA[DevBX]]></name>
   </author>
-  <category term="ReVanced" scheme="https://devbx.github.io/?tags=ReVanced" />
+  <category term="ReVanced" scheme="https://devbx.is-a.dev/?tags=ReVanced" />
   <entry>
     <title type="html"><![CDATA[Patch using ReVanced CLI]]></title>
-    <link href="https://devbx.github.io/revanced/cli" />
-    <id>https://devbx.github.io/revanced/cli</id>
+    <link href="https://devbx.is-a.dev/revanced/cli" />
+    <id>https://devbx.is-a.dev/revanced/cli</id>
     <published>2024-04-22T00:00:00.000Z</published>
-    <updated>2024-04-22T10:49:28.077Z</updated>
+    <updated>2024-04-22T10:50:45.750Z</updated>
     <content type="html">
       <![CDATA[<h2 id="initialize-the-environment" data-svelte-h="svelte-16eumzk"><a href="#initialize-the-environment">Initialize the environment</a></h2> <h3 id="1-install-openjdk-17" data-svelte-h="svelte-jeao4z"><a href="#1-install-openjdk-17">1. Install OpenJDK 17</a></h3> <h3 id="for-arch-linux-based-distro" data-svelte-h="svelte-1ujg6az"><a href="#for-arch-linux-based-distro">For Arch Linux based distro:</a></h3> <!-- HTML_TAG_START --><pre class="shiki material-default" bash="true"><div class="language-id">bash</div><div class='code-container'><code><div class='line'>sudo pacman -S jdk17-openjdk</div></code></div></pre><!-- HTML_TAG_END --> <h3 id="for-debian-based-distro" data-svelte-h="svelte-17garlo"><a href="#for-debian-based-distro">For Debian based distro:</a></h3> <!-- HTML_TAG_START --><pre class="shiki material-default" bash="true"><div class="language-id">bash</div><div class='code-container'><code><div class='line'>sudo apt install openjdk-17-jdk</div></code></div></pre><!-- HTML_TAG_END --> <h3 id="for-fedora-based-distro" data-svelte-h="svelte-18pcvns"><a href="#for-fedora-based-distro">For Fedora based distro:</a></h3> <!-- HTML_TAG_START --><pre class="shiki material-default" bash="true"><div class="language-id">bash</div><div class='code-container'><code><div class='line'>sudo dnf install java-17-openjdk.x86_64</div></code></div></pre><!-- HTML_TAG_END --> <h3 id="for-windows" data-svelte-h="svelte-5jb9vc"><a href="#for-windows">For Windows:</a></h3> <p data-svelte-h="svelte-1j9dor">Download Java SE 17 from <a href="https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.exe" rel="nofollow noopener noreferrer external" target="_blank">here</a></p> <h3 id="2-get-required-files" data-svelte-h="svelte-1rc53tm"><a href="#2-get-required-files">2. Get required files</a></h3> <ul data-svelte-h="svelte-1qc52wr"><li><p><a href="https://github.com/revanced/revanced-cli/releases/latest" rel="nofollow noopener noreferrer external" target="_blank">ReVanced CLI</a> (Only download the revanced-cli-x.x.x-all.jar)</p></li> <li><p><a href="https://github.com/revanced/revanced-patches/releases/latest" rel="nofollow noopener noreferrer external" target="_blank">ReVanced Patches</a> (Only download the revanced-patches-x.x.x.jar)</p></li> <li><p><a href="https://github.com/revanced/revanced-integrations/releases/latest" rel="nofollow noopener noreferrer external" target="_blank">ReVanced Integrations</a> (Only download the revanced-integrations-x.x.x.apk)</p></li></ul> <p data-svelte-h="svelte-f0pd90">Make a folder named <code>revanced</code> and move all the files to the folder</p> <h3 id="3-patch" data-svelte-h="svelte-1c3kc0l"><a href="#3-patch">3. Patch</a></h3>]]>
     </content>
-    <category term="ReVanced" scheme="https://devbx.github.io/?tags=ReVanced" />
+    <category term="ReVanced" scheme="https://devbx.is-a.dev/?tags=ReVanced" />
   </entry>
 </feed>
