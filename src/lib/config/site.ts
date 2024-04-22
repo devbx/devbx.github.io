@@ -11,7 +11,17 @@ export const site: SiteConfig = {
     avatar: 'https://avatars.githubusercontent.com/u/161192932?v=4',
     name: 'DevBX',
     status: '😴',
-    bio: 'Hello world!'
+    bio: 'Hello world!',
+    metadata: [
+      {
+        icon: 'i-simple-icons-github',
+        link: 'https://github.com/devbx'
+      },
+      {
+        icon: 'i-simple-icons-telegram',
+        link: 'https://t.me/devbx36'
+      }
+    ]
   },
   themeColor: '#3D4451'
 }
